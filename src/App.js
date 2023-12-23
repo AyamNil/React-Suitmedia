@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import List from './components/List';
+import Navbar from './components/Navbar';
+
+
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Header/>
-      <List />
+      <div className='container'>
+        <List/>
+      </div>
     </div>
   );
 }

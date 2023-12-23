@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(255, 102, 36)!important;
+    padding: 25px;
+    font-size: 25px;
+    position: relative;
+    
+    transition: 'background 0.3s';
+}
+
+.active{
+    text-decoration: underline!important;
+    font-weight: 800!important;
+
+}
+
+.collapse{
+    padding-right: 18px;
+}
+
+.menu{
+    color: white!important;
+}
