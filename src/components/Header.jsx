@@ -7,17 +7,17 @@ import { Parallax } from 'react-scroll-parallax';
 
 const Banner = () => {
   return (
-    <div className="header bg">
-        <Image src = {background}>
-            
-        </Image>
-        <h2>
-            Ideas
-        </h2>
-        <h3>
-            Where All Great Thing Begin
-        </h3>
-    </div>
+    <div class="container">
+  <Image src={background} alt="Snow" className='bg' style={{ width:"100%" }}/>
+  <div class="text text-center">
+    <h1 className='fw-bolder'>
+    Ideas
+    </h1>
+    <h3>
+        where our great thing begin
+    </h3>
+  </div>
+</div>
   );
 };
 

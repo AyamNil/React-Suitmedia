@@ -61,7 +61,7 @@ export default function List() {
                             <Card.Text>
                                 {formattedDate}
                             </Card.Text>
-                            <Card.Title><h3>{curr.title}</h3></Card.Title>
+                            <Card.Title><h4>{curr.title}</h4></Card.Title>
                         </Card.Body>
                     </Card>
                 </div>

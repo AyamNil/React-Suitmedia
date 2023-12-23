@@ -1,22 +1,35 @@
-.navbar{
-    background-color: rgb(255, 102, 36)!important;
-    padding: 25px;
-    font-size: 25px;
-    position: relative;
-    
-    transition: 'background 0.3s';
+.navbar {
+  background-color: rgb(255, 102, 36) !important;
+  padding: 25px;
+  font-size: 25px;
+  position: relative;
+  color: white !important;
+  transition: "background 0.3s";
 }
 
-.active{
-    text-decoration: underline!important;
-    font-weight: 800!important;
-
+.active {
+  text-decoration: underline !important;
+  font-weight: 800 !important;
 }
 
-.collapse{
-    padding-right: 18px;
+.navbar-brand {
+  font-size: 25px;
+  color: white !important;
 }
 
-.menu{
-    color: white!important;
+.collapse {
+  padding-right: 18px;
+  color: white !important;
+}
+
+.menu {
+  color: white !important;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
